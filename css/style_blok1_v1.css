@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Open Sans Regular"), local("OpenSans Regular"), url(../fonts/OpenSans-Regular.ttf) format('ttf');
+  }
+body {
+    font-family: 'Open Sens', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.main-menu {
+    background-color: #F6F2F2;
+    max-width: 1580px;
+    max-height: 699px;
+    margin: 0 auto;
+    padding-top: 28px;
+    padding-bottom: 1px;
+}
+.menu-board {
+    display: flex;
+    background-color: #000000;
+    max-width: 1250px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1px auto;
+}
+.menu-link>a {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.menu-link {
+    display: flex;
+    padding: 38px 23px 26px 23px;
+}
+.menu-link:hover {
+    background-color: #FF3F40;
+}
+.menu {
+    display: flex;
+    max-width: 1250px;
+    margin: 101px auto;
+    justify-content: space-between;
+}
+.menu-text>h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 10px 0px;
+}
+.menu-text>p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+.menu-text {
+    max-width: 550px;
+}
+.menu-button>a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.menu-button {
+    background-color: #FF3F40;
+    width: 227px;
+    height: 55px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+}
+.menu-video {
+    max-width: 554px;
+    max-height: 360px;
+    box-shadow: 0 0 50px 5px rgb(80, 80, 80);
+}
