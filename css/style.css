@@ -353,12 +353,12 @@ main {
     border: 0px;
 }
 .send-mail-form>input {
-    width: 524px;
+    width: 514px;
     border-radius: 5px;
     border-color: #ffffff;
     font-size: 16px;
     text-transform: capitalize;
-    padding: 20px 0;
+    padding: 20px 20px;
     margin: 0 20px 20px 0;
 }
 .send-mail-form>button {
@@ -372,14 +372,107 @@ main {
     padding: 20px 0;
 }
 
+/* блок 6 */
 
+.get-in {
+    display: flex;
+    max-width: 1419px;
+    margin: 0 0 0 auto;
+    padding: 100px 0 40px 0;
+    flex-direction: column;
+}
+.get-in-text {
+    display: flex;
+    max-width: 710px;
+    flex-direction: column;
+    margin: 0 0 0 0;
+    justify-content: flex-end;
+}
+.get-in-text>h3 {
+    font-size: 42px;
+    text-transform: uppercase;
+    margin: 0 0 46px 0;
+}
+.get-in-text>p {
+    font-size: 16px;
+    margin: 0 0 58px 0;
+}
+.get-in-text>hr {
+    max-width: 134px;
+    margin: 0 0 73px 0;
+    color: #FF3F40;
+}
+.get-in-blok-main {
+    display: flex;
+    max-width: 1419px;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+.get-in-blok1 {
+    max-width: 734px;
+    margin: 0 104px 0 0;
+}
+.get-in-blok1-1 {
+    width: 300px;
+    height: 69px;
+    font-size: 19px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 0px;
+    padding:0 0 0 40px;
+    margin: 1px 40px 43px 0;
 
-
-
-
-
+}
+.get-in-blok1-2 {
+    width: 302px;
+    height: 68px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 0px;
+    padding: 0 0 0 40px;
+    margin: 0 0 43px 0;
+}
+.get-in-blok1-3 {
+    width: 690px;
+    height: 252px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 0px;
+    padding: 0 0 0px 40px;
+    margin: 0 0 52px 0;
+}
+.get-in-blok1-4 {
+    width: 731px;
+    height: 75px;
+    font-size: 18px;
+    background-color: #FF3F40;
+    border-radius: 5px;
+    border: 0px;
+}
+.get-in-blok2 {
+    max-width: 580px;
+    background-color: #2d2d2d;
+    padding: 130px 184px 130px 81px;
+    margin: 0 0 0 0;
+}
+.get-in-blok2>h5 {
+    max-width: 315px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+}
+.get-in-blok2>p {
+    max-width: 315px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+}
 
 /* блок 7 */
+
 footer {
     background-color: #313030;
     display: flex;
