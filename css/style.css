@@ -450,6 +450,8 @@ main {
     background-color: #FF3F40;
     border-radius: 5px;
     border: 0px;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 .get-in-blok2 {
     max-width: 580px;
@@ -478,7 +480,16 @@ footer {
     display: flex;
     max-width: 1586px;
     margin: 0 auto;
+    padding: 0 0;
+    justify-content: space-between;
 }
 .footer-address {
     color: #ffffff;
+    margin: 53px 0 34px 171px;
+}
+.footor-ico {
+    margin-right: 168px;
+}
+.footer-address-img {
+    margin: 53px 18px 34px 0;
 }
